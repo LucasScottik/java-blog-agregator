@@ -5,7 +5,7 @@
 	version="3.0">
 	<display-name>java-blog-agregator</display-name>
 	<welcome-file-list>
-		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>welcome.jsp</welcome-file>
 	</welcome-file-list>
 
 	<servlet>
@@ -16,6 +16,6 @@
 
 	<servlet-mapping>
 		<servlet-name>dispatcher</servlet-name>
-		<url-pattern>/java-blog-agregator/*</url-pattern>
+		<url-pattern>/</url-pattern>
 	</servlet-mapping>
 </web-app>
