@@ -16,7 +16,6 @@ public class Role {
 
 	@ManyToMany
 	private List<User> users;
-	
 	public Integer getId() {
 		return id;
 	}

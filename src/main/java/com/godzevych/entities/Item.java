@@ -1,26 +1,38 @@
-package org.persistence;
+package com.godzevych.entities;
 
 import java.util.Date;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 
 @Entity
-@Table(name = "Item")
 public class Item {
 
-	public Item() {
-	}
-
 	@Id
+	@GeneratedValue
 	private long id;
 	private String link;
 	private String title;
 	private String description;
-	@Column(name="performed_date")
-	private Date performedDate; 
+
+	@Column(name = "published_date")
+	private Date publishedDate;
+
+	public Date getPublishedDate() {
+		return publishedDate;
+	}
+
+	public void setPublishedDate(Date publishedDate) {
+		this.publishedDate = publishedDate;
+	}
+
+	@ManyToOne
+	@JoinColumn(name = "Blog_id")
+	private Blog blog;
 
 	public long getId() {
 		return id;
@@ -55,11 +67,11 @@ public class Item {
 	}
 
 	public Date getPerformedDate() {
-		return performedDate;
+		return publishedDate;
 	}
 
 	public void setPerformedDate(Date performedDate) {
-		this.performedDate = performedDate;
+		this.publishedDate = performedDate;
 	}
 
 	public String getAttribute1() {

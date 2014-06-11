@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><entities>
 	<entity>
-		<entity-name>com.godzevych.entities.Blog</entity-name>
-		<entity-width>130</entity-width>
-		<entity-height>128</entity-height>
-		<entity-X-Coordinate>600</entity-X-Coordinate>
-		<entity-Y-Coordinate>260</entity-Y-Coordinate>
+		<entity-name>com.godzevych.entities.Item</entity-name>
+		<entity-width>120</entity-width>
+		<entity-height>206</entity-height>
+		<entity-X-Coordinate>1028</entity-X-Coordinate>
+		<entity-Y-Coordinate>240</entity-Y-Coordinate>
 		<primary-collapsed>false</primary-collapsed>
 		<relation-collapsed>false</relation-collapsed>
 		<basic-collapsed>false</basic-collapsed>
 	</entity>
 
 	<entity>
-		<entity-name>org.persistence.Item</entity-name>
-		<entity-width>120</entity-width>
-		<entity-height>168</entity-height>
-		<entity-X-Coordinate>110</entity-X-Coordinate>
-		<entity-Y-Coordinate>260</entity-Y-Coordinate>
+		<entity-name>com.godzevych.entities.Blog</entity-name>
+		<entity-width>130</entity-width>
+		<entity-height>186</entity-height>
+		<entity-X-Coordinate>797</entity-X-Coordinate>
+		<entity-Y-Coordinate>29</entity-Y-Coordinate>
 		<primary-collapsed>false</primary-collapsed>
 		<relation-collapsed>false</relation-collapsed>
 		<basic-collapsed>false</basic-collapsed>
@@ -25,8 +25,8 @@
 		<entity-name>com.godzevych.entities.Role</entity-name>
 		<entity-width>120</entity-width>
 		<entity-height>146</entity-height>
-		<entity-X-Coordinate>605</entity-X-Coordinate>
-		<entity-Y-Coordinate>71</entity-Y-Coordinate>
+		<entity-X-Coordinate>100</entity-X-Coordinate>
+		<entity-Y-Coordinate>30</entity-Y-Coordinate>
 		<primary-collapsed>false</primary-collapsed>
 		<relation-collapsed>false</relation-collapsed>
 		<basic-collapsed>false</basic-collapsed>
@@ -35,9 +35,9 @@
 	<entity>
 		<entity-name>com.godzevych.entities.User</entity-name>
 		<entity-width>120</entity-width>
-		<entity-height>166</entity-height>
-		<entity-X-Coordinate>110</entity-X-Coordinate>
-		<entity-Y-Coordinate>61</entity-Y-Coordinate>
+		<entity-height>206</entity-height>
+		<entity-X-Coordinate>448</entity-X-Coordinate>
+		<entity-Y-Coordinate>3</entity-Y-Coordinate>
 		<primary-collapsed>false</primary-collapsed>
 		<relation-collapsed>false</relation-collapsed>
 		<basic-collapsed>false</basic-collapsed>
