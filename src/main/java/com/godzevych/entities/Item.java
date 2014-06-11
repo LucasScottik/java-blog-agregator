@@ -31,7 +31,7 @@ public class Item {
 	}
 
 	@ManyToOne
-	@JoinColumn(name = "Blog_id")
+	@JoinColumn(name = "blog_id")
 	private Blog blog;
 
 	public long getId() {
