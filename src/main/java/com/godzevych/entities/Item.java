@@ -22,14 +22,6 @@ public class Item {
 	@Column(name = "published_date")
 	private Date publishedDate;
 
-	public Date getPublishedDate() {
-		return publishedDate;
-	}
-
-	public void setPublishedDate(Date publishedDate) {
-		this.publishedDate = publishedDate;
-	}
-
 	@ManyToOne
 	@JoinColumn(name = "blog_id")
 	private Blog blog;
@@ -66,14 +58,6 @@ public class Item {
 		this.description = description;
 	}
 
-	public Date getPerformedDate() {
-		return publishedDate;
-	}
-
-	public void setPerformedDate(Date performedDate) {
-		this.publishedDate = performedDate;
-	}
-
 	public String getAttribute1() {
 		return link;
 	}
@@ -81,5 +65,12 @@ public class Item {
 	public void setAttribute1(String param) {
 		this.link = param;
 	}
+	
+	public Date getPublishedDate() {
+		return publishedDate;
+	}
 
+	public void setPublishedDate(Date publishedDate) {
+		this.publishedDate = publishedDate;
+	}
 }

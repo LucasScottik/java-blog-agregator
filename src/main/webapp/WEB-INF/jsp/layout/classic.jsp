@@ -24,7 +24,7 @@
 				<div class="navbar-collapse collapse">
 					<ul class="nav navbar-nav">
 						<li class="active"><a href='<spring:url value="/" />'>Home</a></li>
-						<li><a href='<spring:url value="/" />'>Link</a></li>
+						<li class="active"><a href='<spring:url value="/users" />'>Users</a></li>
 						<li><a href='<spring:url value="/" />'>Link</a></li>
 					</ul>
 				</div>
