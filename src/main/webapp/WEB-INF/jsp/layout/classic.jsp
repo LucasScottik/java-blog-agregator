@@ -33,9 +33,9 @@
 					</ul>
 				</div>
 		</div>
-		<tiles:insertAttribute name="body" />
+		<tiles:insertAttribute name="body"/>
 		<br> <br>
-		<div align="center"><tiles:insertAttribute name="footer" /></div>
+		<div align="center"><tiles:insertAttribute name="footer"/></div>
 	</div>
 </body>
 </html>
