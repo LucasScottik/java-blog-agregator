@@ -51,7 +51,7 @@ public class InitDbService {
 		rolesList.add(roleUser);
 		userAdmin.setRoles(rolesList);
 		userRepository.save(userAdmin);
-		
+
 		Blog javaVidsBlog = new Blog();
 		javaVidsBlog.setName("javaVids");
 		javaVidsBlog.setUrl("http://feeds.feedburner.com/javavids?format=xml");
@@ -62,12 +62,14 @@ public class InitDbService {
 		item1.setTitle("first");
 		item1.setLink("http://www.javavids.com");
 		item1.setPublishedDate(new Date());
+		item1.setBlog(javaVidsBlog);
 		itemRepository.save(item1);
 		
 		Item item2 = new Item();
 		item2.setTitle("second");
 		item2.setLink("http://www.javavids.com");
 		item2.setPublishedDate(new Date());
+		item2.setBlog(javaVidsBlog);
 		itemRepository.save(item2);
 	}
 }

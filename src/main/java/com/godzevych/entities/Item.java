@@ -30,6 +30,14 @@ public class Item {
 		return id;
 	}
 
+	public Blog getBlog() {
+		return blog;
+	}
+
+	public void setBlog(Blog blog) {
+		this.blog = blog;
+	}
+
 	public void setId(long id) {
 		this.id = id;
 	}

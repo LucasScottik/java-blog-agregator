@@ -21,7 +21,7 @@ public class UserController {
 	
 	@RequestMapping("/users/{id}")
 	public String detail(Model model, @PathVariable int id) {
-		model.addAttribute("user", userSevice.getOneUser(id));
+		model.addAttribute("user", userSevice.getOneUserWithBlogs(id));
 		return "user-detail";
 	}
 }

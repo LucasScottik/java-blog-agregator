@@ -10,9 +10,7 @@
 	<tbody>
 		<c:forEach items="${users}" var="user">
 			<tr>
-				<td> 
-				<a href='<spring:url value="/users/${user.id}"></spring:url>'>${user.name}</a>
-				</td>
+				<td><a href='<spring:url value="/users/${user.id}"></spring:url>'>${user.name}</a></td>
 			</tr>
 		</c:forEach>
 	</tbody>
