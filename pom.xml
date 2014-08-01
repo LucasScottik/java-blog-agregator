@@ -7,9 +7,21 @@
 	<properties>
 		<org.springframework.version>4.0.2.RELEASE</org.springframework.version>
 		<org.apache.tiles.version>3.0.3</org.apache.tiles.version>
+		<spring.security.version>3.2.4.RELEASE</spring.security.version>
 	</properties>
 	<dependencies>
-
+		<!-- Core utilities used by other modules. Define this if you use Spring Utility APIs (org.springframework.core.*/org.springframework.util.*) -->
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-web</artifactId>
+			<version>${spring.security.version}</version>
+		</dependency>
+		<!-- Core utilities used by other modules. Define this if you use Spring Utility APIs (org.springframework.core.*/org.springframework.util.*) -->
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-config</artifactId>
+			<version>${spring.security.version}</version>
+		</dependency>
 		<!-- Core utilities used by other modules. Define this if you use Spring Utility APIs (org.springframework.core.*/org.springframework.util.*) -->
 		<dependency>
 			<groupId>org.springframework</groupId>

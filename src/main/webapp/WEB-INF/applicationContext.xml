@@ -31,4 +31,6 @@
 	<bean id="hibernatePersistanceProvider" class="org.hibernate.jpa.HibernatePersistenceProvider"></bean>
 	
 	<jpa:repositories base-package="com.godzevych.repositories"></jpa:repositories>
+	
+	<import resource="security.xml"/>
 </beans>
