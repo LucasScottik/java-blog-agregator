@@ -3,8 +3,8 @@
 		<entity-name>com.godzevych.entities.Item</entity-name>
 		<entity-width>120</entity-width>
 		<entity-height>206</entity-height>
-		<entity-X-Coordinate>1010</entity-X-Coordinate>
-		<entity-Y-Coordinate>50</entity-Y-Coordinate>
+		<entity-X-Coordinate>1004</entity-X-Coordinate>
+		<entity-Y-Coordinate>95</entity-Y-Coordinate>
 		<primary-collapsed>false</primary-collapsed>
 		<relation-collapsed>false</relation-collapsed>
 		<basic-collapsed>false</basic-collapsed>
@@ -14,8 +14,8 @@
 		<entity-name>com.godzevych.entities.Blog</entity-name>
 		<entity-width>130</entity-width>
 		<entity-height>186</entity-height>
-		<entity-X-Coordinate>797</entity-X-Coordinate>
-		<entity-Y-Coordinate>13</entity-Y-Coordinate>
+		<entity-X-Coordinate>690</entity-X-Coordinate>
+		<entity-Y-Coordinate>105</entity-Y-Coordinate>
 		<primary-collapsed>false</primary-collapsed>
 		<relation-collapsed>false</relation-collapsed>
 		<basic-collapsed>false</basic-collapsed>
@@ -26,7 +26,7 @@
 		<entity-width>120</entity-width>
 		<entity-height>146</entity-height>
 		<entity-X-Coordinate>120</entity-X-Coordinate>
-		<entity-Y-Coordinate>121</entity-Y-Coordinate>
+		<entity-Y-Coordinate>125</entity-Y-Coordinate>
 		<primary-collapsed>false</primary-collapsed>
 		<relation-collapsed>false</relation-collapsed>
 		<basic-collapsed>false</basic-collapsed>
@@ -36,8 +36,8 @@
 		<entity-name>com.godzevych.entities.User</entity-name>
 		<entity-width>120</entity-width>
 		<entity-height>206</entity-height>
-		<entity-X-Coordinate>448</entity-X-Coordinate>
-		<entity-Y-Coordinate>3</entity-Y-Coordinate>
+		<entity-X-Coordinate>416</entity-X-Coordinate>
+		<entity-Y-Coordinate>95</entity-Y-Coordinate>
 		<primary-collapsed>false</primary-collapsed>
 		<relation-collapsed>false</relation-collapsed>
 		<basic-collapsed>false</basic-collapsed>
