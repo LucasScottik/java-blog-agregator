@@ -27,6 +27,7 @@
 	
 	<bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
 		<property name="dataSource" ref="dataSource"></property>
+		<property name="entityManagerFactory"  ref="emf"></property>
 	</bean>
 	<bean id="hibernatePersistanceProvider" class="org.hibernate.jpa.HibernatePersistenceProvider"></bean>
 	
